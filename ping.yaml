@@ -1,0 +1,6 @@
+---
+- name: Try to ping All hosts
+  hosts: all
+  tasks:
+  - name: Perform ping
+    ping:
